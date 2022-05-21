@@ -8,6 +8,6 @@ target = os.path.join(sys.prefix, 'lib', 'site-packages')
 subprocess.call([python_exe, '-m', 'ensurepip'])
 subprocess.call([python_exe, '-m', 'pip', 'install', '--upgrade', 'pip'])
  
-subprocess.call([python_exe, '-m', 'pip', 'install', '--upgrade', 'psycopg2', '-t', target])
+subprocess.call([python_exe, '-m', 'pip', 'install', '--upgrade', 'psycopg2-binary', '-t', target])
  
 print('Psycopg2 installed')
