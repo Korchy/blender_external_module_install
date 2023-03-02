@@ -1,4 +1,4 @@
-# Psycopg2 module install to Blender
+# Install external modules to Blender
 
 With these scripts, you can install external Python modules (which are not included in the base distributive) to Blender
 
